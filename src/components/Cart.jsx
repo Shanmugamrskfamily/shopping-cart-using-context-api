@@ -31,9 +31,9 @@ const Cart = () => {
   };
 
   return (
-    <div>
-      <span style={{ fontSize: 30 }}>My Cart</span> <br />
-      <span style={{ fontSize: 30 }}>Total : Rs{calculateTotalPrice()}</span>
+    <div className="text-center">
+      <h4><span style={{ fontSize: 30, color:'Blue' }}>My Cart</span> <br />
+      <span style={{ fontSize: 30, color:'green' }}>Total : Rs{calculateTotalPrice()}</span></h4>
       {cart.length === 0 && (
         <div className="NoItems">
           <img

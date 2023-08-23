@@ -30,20 +30,11 @@ const SingleProduct = ({ product, cartPage, count, setCount }) => {
 
         {/* Increment and decrement buttons */}
         {cartPage ? (
-          <div className="button-container">
+          <div className="button-container ">
             <div className="Total-price">
-              <b>TotalPrice</b>:{productTotal || product.price}
+              <b>TotalPrice:</b>{`₹${productTotal || product.price}`}
             </div>
-            <button
-              className="increment-button buttons"
-              onClick={() => {
-                // console.log(count);
-                Addtotals();
-              }}
-            >
-              +
-            </button>
-            <span className="quantity-display">{count || 1}</span>
+            
             <button
               className="decrement-button button1"
               onClick={() => {
@@ -54,6 +45,16 @@ const SingleProduct = ({ product, cartPage, count, setCount }) => {
               }}
             >
               -
+            </button>
+            <span className="quantity-display">{count || 1}</span>
+            <button
+              className="increment-button buttons"
+              onClick={() => {
+                // console.log(count);
+                Addtotals();
+              }}
+            >
+              +
             </button>
           </div>
         ) : (

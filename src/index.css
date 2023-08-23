@@ -18,7 +18,12 @@ code {
   list-style: none;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(44, 201, 236, 0.916);
+  background: rgba(33, 79, 192, 0.59);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.2px);
+  -webkit-backdrop-filter: blur(4.2px);
+  border: 1px solid rgba(33, 79, 192, 0.31);
   height: 80px;
   margin-top: 0;
 
@@ -97,14 +102,19 @@ html {
 }
 .Name {
   font-weight: 700;
-  color: red;
+  color: rgba(25, 38, 220, 0.886);
 }
 .text-center {
   font-weight: 400;
   font-style: oblique;
 }
 .footer {
-  background: black;
+  background: rgba(89, 140, 78, 0.59);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(89, 140, 78, 0.66);
   padding: 0px;
   height: 50px;
   bottom: -15px;
