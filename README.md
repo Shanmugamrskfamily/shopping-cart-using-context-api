@@ -31,24 +31,24 @@ Here's a live demo of the project: https://shopping-cart-using-context-api-guvi.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/Shanmugamrskfamily/shopping-cart-using-context-api.git
 
    ```
 
 2. Install dependencies:
 
+```bash
    cd your-project
    npm install
+```
 
 3. Start the development server:
 
+```bash
    npm start
+```
 
 4. Open your browser and navigate to http://localhost:3000 to view the app.
-
-   ```
-
-   ```
 
 ## Usage
 
